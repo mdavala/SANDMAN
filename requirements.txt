@@ -1,0 +1,11 @@
+pydantic
+openai-agents
+dotenv
+Ipython
+pandas
+pathlib
+uuid
+python-dotenv
+httpx
+asyncio
+ncclient

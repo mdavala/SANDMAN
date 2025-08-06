@@ -1,0 +1,103 @@
+{
+  "customer_id": "{CUSTOMER_UUID}",
+  "design_id": "{DESIGN_IDENTIFIER}",
+  "instance_id": "{INSTANCE_IDENTIFIER}",
+  "instance_status": "active",
+  "instance_uuid": "{INSTANCE_UUID}",
+  "l2vpn_svc": {
+    "sites": {
+      "site": [
+        {
+          "devices": {
+            "device": []
+          },
+          "locations": {
+            "location": [
+              {
+                "country_code": "{COUNTRY_CODE}",
+                "location_id": "{LOCATION_ID}",
+                "postal_code": "{POSTAL_CODE}"
+              }
+            ]
+          },
+          "site_id": "{SITE_ID}",
+          "site_network_accesses": {
+            "site_network_access": [
+              {
+                "connection": {
+                  "eth_inf_type": "{ETHERNET_INTF_TYPE}",
+                  "tagged_interface": {
+                    "dot1q_vlan_tagged": {
+                      "cvlan_id": "{CVLAN_ID}",
+                      "tg_type": "c-vlan"
+                    },
+                    "type": "dot1q"
+                  },
+                  "untagged_interface": {
+                    "lldp": "{LLDP_BOOLEAN}",
+                    "oam_802.3ah_link": {
+                      "enabled": "{OAM_ENABLED_BOOLEAN}"
+                    },
+                    "speed": "{SPEED}"
+                  }
+                },
+                "network_access_id": "{NETWORK_ACCESS_ID}",
+                "service": {
+                  "svc_bandwidth": {
+                    "bandwidth": []
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "devices": {
+            "device": []
+          },
+          "locations": {
+            "location": [
+              {
+                "country_code": "{COUNTRY_CODE}",
+                "location_id": "{LOCATION_ID}",
+                "postal_code": "{POSTAL_CODE}"
+              }
+            ]
+          },
+          "site_id": "{SITE_ID}",
+          "site_network_accesses": {
+            "site_network_access": [
+              {
+                "connection": {
+                  "eth_inf_type": "tagged",
+                  "tagged_interface": {
+                    "dot1q_vlan_tagged": {
+                      "cvlan_id": "{VLAN_ID}",
+                      "tg_type": "c-vlan"
+                    },
+                    "type": "dot1q"
+                  },
+                  "untagged_interface": {
+                    "lldp": "{LLDP_BOOLEAN}",
+                    "oam_802.3ah_link": {
+                      "enabled": "{OAM_ENABLED_BOOLEAN}"
+                    },
+                    "speed": "{SPEED}"
+                  }
+                },
+                "network_access_id": "{NETWORK_ACCESS_ID}",
+                "service": {
+                  "svc_bandwidth": {
+                    "bandwidth": []
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "operation": "create",
+  "version": "1.0.0"
+}

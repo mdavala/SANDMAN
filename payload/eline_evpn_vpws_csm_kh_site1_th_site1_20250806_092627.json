@@ -1,0 +1,89 @@
+{
+  "customer_id": "350ed1f4-277c-11f0-b231-3665c4645853",
+  "design_id": "eline-evpn-vpws-csm",
+  "instance_id": "evpnvpws18980",
+  "instance_status": "active",
+  "instance_uuid": "c59e42e0-edd7-4ed9-aa1a-028822dda47f",
+  "l2vpn_svc": {
+    "sites": {
+      "site": [
+        {
+          "devices": {
+            "device": []
+          },
+          "locations": {
+            "location": [
+              {
+                "country_code": "KH",
+                "location_id": "kh_site1",
+                "postal_code": "121207"
+              }
+            ]
+          },
+          "site_id": "kh_site1",
+          "site_network_accesses": {
+            "site_network_access": [
+              {
+                "connection": {
+                  "eth_inf_type": "untagged",
+                  "untagged_interface": {
+                    "lldp": true,
+                    "oam_802.3ah_link": {
+                      "enabled": false
+                    },
+                    "speed": 10000
+                  }
+                },
+                "network_access_id": "kh_link1",
+                "service": {
+                  "svc_bandwidth": {
+                    "bandwidth": []
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "devices": {
+            "device": []
+          },
+          "locations": {
+            "location": [
+              {
+                "country_code": "TH",
+                "location_id": "th_site1",
+                "postal_code": "10310"
+              }
+            ]
+          },
+          "site_id": "th_site1",
+          "site_network_accesses": {
+            "site_network_access": [
+              {
+                "connection": {
+                  "eth_inf_type": "untagged",
+                  "untagged_interface": {
+                    "lldp": true,
+                    "oam_802.3ah_link": {
+                      "enabled": false
+                    },
+                    "speed": 10000
+                  }
+                },
+                "network_access_id": "th_link1",
+                "service": {
+                  "svc_bandwidth": {
+                    "bandwidth": []
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "operation": "create",
+  "version": "1.0.0"
+}
