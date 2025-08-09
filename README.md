@@ -58,23 +58,23 @@ mkdir sessions payload
 **⚙️ Configuration**
 **1. Environment Setup**
 Create a .env file in the project root with the following configuration:
-# LLM Credentials/API-Keys
-OPENAI_API_KEY="sk-proj-your-openai-key-here"
-ANTHROPIC_API_KEY="sk-ant-api-your-anthropic-key-here"
+  ### LLM Credentials/API-Keys
+  OPENAI_API_KEY="sk-proj-your-openai-key-here"
+  ANTHROPIC_API_KEY="sk-ant-api-your-anthropic-key-here"
 
-# Routing Director Credentials
-USERNAME="your-username"
-PASSWORD="your-password" 
-ORG_ID="your-org-id"
-BASE_URL="https://66.129.234.204:48800" #Routing Director BASE_URL
-TOPO_FILE_NAME="your-topology-file"
-RD_RT_RESOURCES="your-resources"
+  ### Routing Director Credentials
+  USERNAME="your-username"
+  PASSWORD="your-password" 
+  ORG_ID="your-org-id"
+  BASE_URL="https://66.129.234.204:48800" #Routing Director BASE_URL
+  TOPO_FILE_NAME="your-topology-file"
+  RD_RT_RESOURCES="your-resources"
 
-# Routing Base API Endpoints (DO NOT MODIFY)
-CUSTOMERS_API_ENDPOINT="/service-orchestration/api/v1/orgs/{org_id}/order/customers"
-DEVICES_API_ENDPOINT="/trust/api/v1.1alpha/{org_id}/devices"
-SITES_API_ENDPOINT="/api/v1/orgs/{org_id}/sites"
-TOPO_API_ENDPOINT="/api-aggregator/api/v1/orgs/{org_id}/aggregate/network-resources-by-instance?customer_id={infra_id}&instance_id={topo_file_name}"
+  ### Routing Base API Endpoints (DO NOT MODIFY)
+  CUSTOMERS_API_ENDPOINT="/service-orchestration/api/v1/orgs/{org_id}/order/customers"
+  DEVICES_API_ENDPOINT="/trust/api/v1.1alpha/{org_id}/devices"
+  SITES_API_ENDPOINT="/api/v1/orgs/{org_id}/sites"
+  TOPO_API_ENDPOINT="/api-aggregator/api/v1/orgs/{org_id}/aggregate/network-resources-by-instance?customer_id={infra_id}&instance_id={topo_file_name}"
 
 **2. Required Credentials**
 
